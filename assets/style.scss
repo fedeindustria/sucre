@@ -1,0 +1,31 @@
+---
+---
+
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+body, html{
+    height: 100%;
+}
+
+.logo-isotipo{
+    width: 7em;
+}
+
+.logo-texto{
+    width: 23em;
+}
+
+.font-size-large{
+    font-size: 1.25em;
+}
+
+@media (min-width: 576px){
+    .font-size-sm-normal{
+        font-size: 1em;
+    }
+}
+
+.font-quicksand {
+    font-family: 'Quicksand', Noto, sans-serif
+}

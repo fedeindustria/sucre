@@ -1,0 +1,13 @@
+title: Fedeindustria Sucre
+description: >- 
+  Fedeindustria, sede Sucre.
+
+baseurl: ""
+
+url: "https://sucre.fedeindustria.com" 
+
+markdown: kramdown
+# theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
