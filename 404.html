@@ -2,18 +2,18 @@
 layout: default
 ---
 
-<div class="container-fluid h-100 d-flex align-items-center justify-content-center">
-  <div class="vertical-center font-quicksand">
-    <div class="row clearfix justify-content-center align-items-center no-gutters">
-        <div class="col-12 text-center col-sm-auto mr-sm-2 mb-4 mb-sm-0">
-            <img src="{{ "/assets/logo-simbolo.png" | relative_url }}" class="img-fluid logo-isotipo" alt="isologo">
+
+<div class="container h-100 d-flex flex-column align-items-center justify-content-center font-quicksand">
+  <div class="vertical-center">
+    <ul class="list-group">
+      <li class="list-group-item text-center p-0 pb-2 border-0">
+          <img src="{{ "/assets/logo-simbolo.png"}}" class="img-fluid logo-isotipo" alt="isologo">
+      </li>
+      <li class="list-group-item text-center mt-3 p-0 pb-2 border-0">
+         <div class="alert alert-danger" role="alert">
+          <strong>404 : </strong> No Encontrado !
         </div>
-        <div class="col-12 text-center col-sm mr-2 d-flex justify-content-center d-sm-block">
-            <div class="d-none d-sm-block">
-                <img src="{{ "/assets/logo-texto.png" | relative_url }}" class="img-fluid logo-texto mb-sm-1" alt="texto">
-            </div>
-            <h3>404 ¡No encontrado!</h3>
-        </div>
-    </div>
+      </li>
+    </ul>
   </div>
 </div>
