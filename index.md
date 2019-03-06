@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-modificado
 ---
 <div class="container h-100 d-flex flex-column align-items-center justify-content-center font-quicksand">
 
