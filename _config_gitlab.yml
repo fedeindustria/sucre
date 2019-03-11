@@ -1,0 +1,13 @@
+title: Sucre
+description: >- 
+  Fedeindustria
+
+baseurl: "sucre"
+
+url: "https://sucre.fedeindustria.com" 
+
+markdown: kramdown
+# theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
